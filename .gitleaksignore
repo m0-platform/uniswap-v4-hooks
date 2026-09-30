@@ -1,0 +1,6 @@
+# Reviewed false alarms. Each line is file:rule:start-line.
+# A new secret on a different line still fails the scan.
+.gitsecret/paths/mapping.cfg:bare-32-byte-hex:1
+.gitsecret/paths/mapping.cfg:bare-32-byte-hex:2
+README.md:evm-32-byte-hex:230
+README.md:evm-32-byte-hex:231
